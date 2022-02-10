@@ -1,0 +1,4 @@
+?rowsum
+getwd()
+infilename<-"run125_RSEM_Allgenes_logTPM.txt"
+TPM<-read.table(file=infilename, header=T, sep="\t")
