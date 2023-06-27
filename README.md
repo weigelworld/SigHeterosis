@@ -26,5 +26,6 @@ The directory contains all essential scripts to perform the analyses in the manu
 	run125_RSEM_rmCMRTPHBS_rmColOL3Mdup_seqtk28_Shootmetainfo.txt: the corresponding meta data
 	run197_rmCMRTPHBS_rm2MSeqtkDupOL.TPM.txt.gz: TPM table for the second, SHB2 experiment
 	run197_rmCMRTPHBS_rm2MSeqtkDupOL_corr.meta.txt: the corresponding meta data 
+  
   For detailed explanation, see #README sections of each script.
   
