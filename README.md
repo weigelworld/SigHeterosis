@@ -21,5 +21,10 @@ The directory contains all essential scripts to perform the analyses in the manu
   
   10_Rareallele_xpn.r, 10A_Rareallele_xpn_PosNeggenelist.r, 10B_Rareallele_xpn_additivegenelist.r: whether rare allele count in regulatory region of genes affects the gene expression, and whether gene expression in turn associates with plant growth. It is also tested whether the association differs between hybrids and inbreds using various (additive and non-additive) gene lists.
   
+  GeneExpressionMatrix: Directory where gene expression matrix in the form of TPM tables and corresponding meta data files are stored. The files are gzip compressed. The TPM table is generated following scripts in steps 1 and 2.
+	run125_RSEM_rmCMRTPHBS_rmColOL3Mdup_seqtk28_ShootTPM.txt.gz: TPM table for the first, SHB1 experiment
+	run125_RSEM_rmCMRTPHBS_rmColOL3Mdup_seqtk28_Shootmetainfo.txt: the corresponding meta data
+	run197_rmCMRTPHBS_rm2MSeqtkDupOL.TPM.txt.gz: TPM table for the second, SHB2 experiment
+	run197_rmCMRTPHBS_rm2MSeqtkDupOL_corr.meta.txt: the corresponding meta data 
   For detailed explanation, see #README sections of each script.
   
